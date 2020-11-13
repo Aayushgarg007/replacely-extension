@@ -18,3 +18,7 @@ article for developing this extension
       whereas content scripts get executed when the webpage on which the script is to be executed loads.
 
 # chrome message passing API lets us communicate b/w content scripts and the extension
+
+# notice that the text-replacing action we added in the previous section stops working.
+That is because the chrome.pageAction.onClicked API only works when there is no popup in the extension.
+So, you can remove that code from the background.js file since as it’s now useless.
