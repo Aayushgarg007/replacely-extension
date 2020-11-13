@@ -1,3 +1,11 @@
 https://medium.com/better-programming/the-ultimate-guide-to-building-a-chrome-extension-4c01834c63ec
 
 article for developing this extension
+
+# content scripts
+    - They let you modify the webpage DOM, working in isolation from the original webpage JavaScript.
+    - An extension on a webpage can execute multiple content scripts.
+    - Each of these scripts would run in their own isolated world.
+    - Each isolated world has its JavaScript environment that ensures libraries don’t conflict with each other.
+    - The DOM is shared between all the content scripts and the original webpage’s JavaScript.
+
