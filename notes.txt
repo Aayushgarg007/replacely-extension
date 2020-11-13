@@ -9,3 +9,10 @@ article for developing this extension
     - Each isolated world has its JavaScript environment that ensures libraries don’t conflict with each other.
     - The DOM is shared between all the content scripts and the original webpage’s JavaScript.
 
+# background scripts
+    - This script listens to specific events in the background, such as changing tabs, URL updates, and adding a bookmark, 
+      and it does a variety of other things to affect how the browser as a whole behaves.
+    - Unlike content scripts, it works as a whole for the browser instead of having separate instances in separate tabs.
+    - Although we can have multiple background scripts for an extension.
+    - Also, background scripts get executed as soon as the browser launches,
+      whereas content scripts get executed when the webpage on which the script is to be executed loads.

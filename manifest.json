@@ -22,5 +22,10 @@
           "matches": ["https://medium.com/*"],
           "js": ["contentScript.js"]
         }
-      ]
+    ],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "permissions": ["declarativeContent"]
 }
