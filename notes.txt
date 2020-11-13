@@ -16,3 +16,5 @@ article for developing this extension
     - Although we can have multiple background scripts for an extension.
     - Also, background scripts get executed as soon as the browser launches,
       whereas content scripts get executed when the webpage on which the script is to be executed loads.
+
+# chrome message passing API lets us communicate b/w content scripts and the extension
